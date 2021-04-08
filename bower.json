@@ -1,0 +1,29 @@
+{
+  "name": "demo",
+  "description": "BoomCMS demo theme",
+  "main": "",
+  "authors": [
+    "iulian_uxb <iulian@uxblondon.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "boomcms",
+    "demo",
+    "theme"
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "modernizr": "^3.3.1",
+    "lightgallery": "^1.2.21",
+    "flexslider": "^2.6.1"
+  }
+}

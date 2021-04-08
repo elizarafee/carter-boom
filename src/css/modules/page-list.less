@@ -1,0 +1,27 @@
+.page-list {
+    margin: -0.5rem;
+    overflow: hidden;
+    padding: 0;
+
+    li {
+        padding: 0.5rem;
+
+        a {
+            position: relative;
+            height: 30rem;
+            width: 100%;
+            display: block;
+            background: @orange;
+        }
+    }
+}
+
+@media all and (min-width: 600px) {
+    .page-list {
+        li {
+            display: inline-block;
+            float: left;
+            width: 50%;
+        }
+    }
+}

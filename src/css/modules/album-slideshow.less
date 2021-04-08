@@ -1,0 +1,42 @@
+.album-slideshow {
+    margin: 0;
+
+    ul {
+        margin: -0.5rem;
+        overflow: hidden;
+        list-style-type: none;
+        padding: 0;
+        width: calc(~"100% + 1rem");
+        display: flex;
+        flex-wrap: wrap;
+
+        li {
+            padding: 0.5rem;
+            height: 100vw;
+            position: relative;
+
+            .card {
+                text-align: left;
+
+                h3 {
+                    font-weight: 900;
+                    font-size: 8rem;
+                    line-height: 6.4rem;
+                }
+
+                p {
+                    font-weight: 500;
+                    font-size: 4rem;
+                    line-height: 4.2rem;
+                    margin: 2rem 0 0 0;
+                }
+            }
+
+            @media all and (min-width: 600px) {
+                width: 100/3%;
+                flex-grow: 3;
+                height: 50vw;
+            }
+        }
+    }
+}
