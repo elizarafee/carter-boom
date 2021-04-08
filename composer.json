@@ -1,13 +1,11 @@
 {
-    "name": "boomcms/demo",
-    "description": "Default theme for BoomCMS",
+    "name": "boomcms/carter-boom",
+    "description": "Website for Carter",
     "type": "boomcms-theme",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Rob Taylor",
-            "email": "rob@uxblondon.com"
-        }
-    ],
+    "authors": [{
+        "name": "Eliza Ahmed",
+        "email": "elizarafee@gmail.com"
+    }],
     "minimum-stability": "dev"
 }
